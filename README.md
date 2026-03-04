@@ -57,3 +57,31 @@ During installation:
 ✔ Check **"Add Python to PATH"**
 
 Verify installation:
+
+
+
+---
+
+### 2️⃣ Install MySQL
+
+Download MySQL Community Server:
+
+https://dev.mysql.com/downloads/mysql/
+
+After installation:
+
+- Start MySQL Server
+- Open MySQL Command Line Client
+- Create the database and table using:
+
+```sql
+CREATE DATABASE company_db;
+
+USE company_db;
+
+CREATE TABLE employee (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    position VARCHAR(100),
+    salary DECIMAL(10,2)
+);
