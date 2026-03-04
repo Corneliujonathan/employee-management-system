@@ -40,3 +40,20 @@ CREATE TABLE employee (
     position VARCHAR(100),
     salary DECIMAL(10,2)
 );
+
+## 🖥 Development Environment Setup (VS Code)
+
+Follow these steps to run this project using Visual Studio Code.
+
+---
+
+### 1️⃣ Install Python
+
+Download and install Python from:
+
+https://www.python.org/downloads/
+
+During installation:
+✔ Check **"Add Python to PATH"**
+
+Verify installation:
