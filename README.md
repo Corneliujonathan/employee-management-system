@@ -85,3 +85,27 @@ CREATE TABLE employee (
     position VARCHAR(100),
     salary DECIMAL(10,2)
 );
+
+
+3. Add employee
+
+4. View employees
+5. Capture entire interaction
+
+Ideal screenshot should show:
+
+- Menu
+- Add operation
+- Success message
+- View output
+
+---
+
+# 🎯 Bonus Tip (Professional Touch)
+
+Before screenshot, improve output formatting slightly.
+
+Instead of printing:
+
+```python
+print(row)
